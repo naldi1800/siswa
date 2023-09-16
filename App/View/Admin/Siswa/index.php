@@ -9,6 +9,7 @@
         <th>Nama Siswa</th>
         <th>Jenis Kelamin</th>
         <th>Kelas</th>
+        <th>Wali Kelas </th>
         <th>Alamat</th>
         <th>Action</th>
     </tr>
@@ -28,6 +29,7 @@
             <td width="30%"><?= $data['nama'] ?></td>
             <td width="15%" class="text-center"><?= $jkl ?></td>
             <td width="10%" class="text-center"><?= $data['kelas'] ?></td>
+            <td width="10%" class="text-center"><?= $data['wali'] ?></td>
             <td width="15%" class="text-center"><?= $data['alamat'] ?></td>
             <td width="15%" class="">
                 <center>

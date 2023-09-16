@@ -78,6 +78,16 @@ if (isset($_GET['id'])) {
                     Please select the class of students
                 </div>
             </div>
+            <div class="col-md-12">
+                <label for="wali" class="form-label">Wali Kelas</label>
+                <input type="text" class="form-control" id="wali" name="wali" minlength="3" required value="<?= $data['wali'] ?>">
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+                <div class="invalid-feedback">
+                    Please enter in the student's address and at least 3 letters
+                </div>
+            </div>
 
             <div class="col-md-12">
                 <label for="alamat" class="form-label">Alamat Siswa</label>

@@ -71,6 +71,16 @@ if (isset($_POST["tambah"])) {
                 Please select the class of students
             </div>
         </div>
+        <div class="col-md-12">
+            <label for="wali" class="form-label">Wali Kelas</label>
+            <input type="text" class="form-control" id="wali" name="wali" minlength="3" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+            <div class="invalid-feedback">
+                Enter the name of the student's homeroom teacher with at least 3 letters
+            </div>
+        </div>
 
         <div class="col-md-12">
             <label for="alamat" class="form-label">Alamat Siswa</label>

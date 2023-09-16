@@ -34,6 +34,7 @@ class Siswa extends Data
             . "nama='" . $siswa['nama'] . "' , "
             . "jkl='" . $siswa['jkl'] . "' , "
             . "alamat='" . $siswa['alamat'] . "', "
+            . "wali='" . $siswa['wali'] . "', "
             . "kelas='" . $siswa['kelas'] . "' WHERE id='" . $id . "'";
 
 
@@ -65,6 +66,7 @@ class Siswa extends Data
             . $siswa['nama'] . "' , '"
             . $siswa['jkl'] . "' , '"
             . $siswa['kelas'] . "' , '"
+            . $siswa['wali'] . "' , '"
             . $siswa['alamat'] . "')";
 
 
